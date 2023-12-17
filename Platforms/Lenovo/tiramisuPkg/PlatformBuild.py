@@ -1,5 +1,5 @@
 # @file
-# Script to Build Lenovo Legion Tab Y700 UEFI firmware
+# Script to Build xiaoxin pad pro 12.7 UEFI firmware
 #
 # Copyright (c) Microsoft Corporation.
 # SPDX-License-Identifier: BSD-2-Clause-Patent
