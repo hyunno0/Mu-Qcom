@@ -81,8 +81,8 @@ READ_STATUS        = TRUE
 READ_LOCK_CAP      = TRUE
 READ_LOCK_STATUS   = TRUE
 
-  !include Include/APRIORI.inc
-  !include Include/DXE.inc
+  # !include Include/APRIORI.inc
+  # !include Include/DXE.inc
   !include Include/RAW.inc
 
   # Secure Boot Key Enroll
