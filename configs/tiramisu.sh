@@ -3,7 +3,7 @@
 # Build an Android kernel that is actually UEFI disguised as the Kernel
 cat ./BootShim/AARCH64/BootShim.bin "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd" > "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd-bootshim"||exit 1
 gzip -c < "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd-bootshim" > "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd-bootshim.gz"||exit 1
-cat "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd-bootshim.gz" ./ImageResources/DTBs/tiramisu.dtb > ./ImageResources/bootpayload.bin||exit 1
+cat "./Build/tiramisuPkg-AARCH64/${_TARGET_BUILD_MODE}_CLANG38/FV/LENOVO_TIRAMISU_UEFI.fd-bootshim.gz" ./ImageResources/DTBs/Tiramisu.dtb > ./ImageResources/bootpayload.bin||exit 1
 
 # Create bootable Android boot.img
 python3 ./ImageResources/mkbootimg.py \
