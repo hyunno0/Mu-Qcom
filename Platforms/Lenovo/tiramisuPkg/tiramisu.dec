@@ -1,0 +1,11 @@
+[Defines]
+  DEC_SPECIFICATION                   = 0x00010005
+  PACKAGE_NAME                        = tiramisu
+  PACKAGE_GUID                        = 7b30b6df-c011-47fd-81a8-f96b10b433c6
+  PACKAGE_VERSION                     = 0.1
+
+[Includes.common]
+  Include                               # Root include for the package
+
+[Guids.common]
+  g9707fTokenSpaceGuid                 = { 0x7b30b6df, 0xc011, 0x47fd, { 0x81, 0xa8, 0xf9, 0x6b, 0x10, 0xb4, 0x33, 0xc6 } }
