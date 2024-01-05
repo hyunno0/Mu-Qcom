@@ -160,4 +160,4 @@ READ_LOCK_STATUS   = TRUE
     }
   }
 
-  !include QcomPkg/CommonFdf.fdf.inc
+  !include QcomPkg/Common.fdf.inc
